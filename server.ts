@@ -41,7 +41,7 @@ async function startServer() {
   // Simple Add API with Password check
   app.post("/api/exams", (req, res) => {
     const { password, ...examData } = req.body;
-    if (password !== "1234") { // تێپەڕەوشەی بنەڕەتی
+    if (password !== "Bradost@1991") { // تێپەڕەوشەی بنەڕەتی
       return res.status(403).json({ error: "تێپەڕەوشە هەڵەیە" });
     }
     
