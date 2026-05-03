@@ -65,7 +65,7 @@ async function startServer() {
     const { password } = req.body;
     const { id } = req.params;
 
-    if (password !== "1234") {
+    if (password !== "Bradost@1991") {
       return res.status(403).json({ error: "تێپەڕەوشە هەڵەیە" });
     }
 
