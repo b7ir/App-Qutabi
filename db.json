@@ -1,0 +1,16 @@
+{
+  "channels": [
+    { "id": "1", "name": "کەناڵی پۆلی ١٢", "link": "https://t.me/poly12" },
+    { "id": "2", "name": "کەناڵی تاقیکردنەوەکان", "link": "https://t.me/exam_news" }
+  ],
+  "exams": [
+    {
+      "id": "1",
+      "title": "ماتماتیکی پۆلی ١٢ - ٢٠٢٣",
+      "subject": "ماتماتیک",
+      "grade": "١٢",
+      "type": "pdf",
+      "url": "https://example.com/math12.pdf"
+    }
+  ]
+}
